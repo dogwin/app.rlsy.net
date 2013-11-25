@@ -1,0 +1,54 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	
+    <item
+        android:id="@+id/liberation"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/app_name"/>
+    <item
+        android:id="@+id/buddha"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/buddha"/>
+    <item
+        android:id="@+id/music"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/music"/>
+    <item
+        android:id="@+id/books"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/books"/>
+    <item
+        android:id="@+id/story"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/story"/>
+    <item
+        android:id="@+id/master"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/master"/>
+    <item
+        android:id="@+id/profile"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/profile_title"/>
+    <item
+        android:id="@+id/setting"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/setting"/>
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/logout"/>
+    <item
+        android:id="@+id/quit"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/quit"/>
+
+</menu>

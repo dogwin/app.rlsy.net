@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.69" >
+
+        <TextView
+            android:id="@+id/nickname_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/profile_image"
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@+id/profile_image"
+            android:text="@string/nickname_title"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/nickname_title"
+            android:layout_alignBottom="@+id/nickname_title"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/nickname_title"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/changps_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/profile_image"
+            android:layout_below="@+id/sex"
+            android:layout_marginTop="17dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <RadioGroup
+            android:id="@+id/sex"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nickname"
+            android:layout_below="@+id/profile_image"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/sex0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:checked="true"
+                android:text="@string/sex_male" />
+
+            <RadioButton
+                android:id="@+id/sex1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sex_female" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/sex_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/sex"
+            android:layout_alignLeft="@+id/nickname_title"
+            android:layout_below="@+id/profile_image"
+            android:layout_centerInParent="false"
+            android:text="@string/sex_title"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="41dp"
+            android:src="@drawable/ic_launcher" />
+
+        <EditText
+            android:id="@+id/brithday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/brithday_title"
+            android:layout_alignBottom="@+id/brithday_title"
+            android:layout_alignLeft="@+id/sex"
+            android:layout_alignParentRight="true"
+            android:ems="10"
+            android:inputType="date" />
+
+        <TextView
+            android:id="@+id/brithday_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/sex_title"
+            android:layout_alignTop="@+id/changps_title"
+            android:text="@string/brithday_title"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.64">
+
+        <CheckBox
+            android:id="@+id/changepsFlag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/changps_title" />
+
+        <EditText
+            android:id="@+id/oldps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/oldps_title"
+            android:layout_alignBottom="@+id/oldps_title"
+            android:layout_alignParentRight="true"
+            android:ems="10"
+            android:enabled="false"
+            android:password="true" />
+
+        <TextView
+            android:id="@+id/oldps_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/changepsFlag"
+            android:layout_marginRight="19dp"
+            android:layout_toLeftOf="@+id/oldps"
+            android:text="@string/oldps_title"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/renewps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/newps"
+            android:ems="10"
+            android:enabled="false"
+            android:password="true" />
+
+        <TextView
+            android:id="@+id/renewps_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/renewps"
+            android:layout_alignLeft="@+id/newps_title"
+            android:text="@string/renewps_title"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/newps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/oldps_title"
+            android:ems="10"
+            android:enabled="false"
+            android:password="true" />
+
+        <TextView
+            android:id="@+id/newps_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/renewps"
+            android:layout_alignLeft="@+id/oldps_title"
+            android:text="@string/newps_title"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/changebt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/renewps"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/oldps_title"
+            android:text="@string/changebt" />
+
+        <Button
+            android:id="@+id/rtbuddha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/changebt"
+            android:layout_alignBottom="@+id/changebt"
+            android:layout_marginLeft="26dp"
+            android:layout_toRightOf="@+id/changebt"
+            android:text="@string/rtbuddha" />
+
+    </RelativeLayout>
+
+</LinearLayout>
