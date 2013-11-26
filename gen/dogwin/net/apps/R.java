@@ -296,14 +296,15 @@ containing a value of this type.
     }
     public static final class layout {
         public static final int autoupdata=0x7f030000;
-        public static final int buddha=0x7f030001;
-        public static final int buddhaapp=0x7f030002;
-        public static final int friends=0x7f030003;
-        public static final int lessons=0x7f030004;
-        public static final int login=0x7f030005;
-        public static final int main_profile=0x7f030006;
-        public static final int update=0x7f030007;
-        public static final int userinfo=0x7f030008;
+        public static final int booklist=0x7f030001;
+        public static final int buddha=0x7f030002;
+        public static final int buddhaapp=0x7f030003;
+        public static final int friends=0x7f030004;
+        public static final int lessons=0x7f030005;
+        public static final int login=0x7f030006;
+        public static final int main_profile=0x7f030007;
+        public static final int update=0x7f030008;
+        public static final int userinfo=0x7f030009;
     }
     public static final class menu {
         public static final int buddha=0x7f080000;
@@ -317,62 +318,63 @@ containing a value of this type.
         /**  layout buddha 
          */
         public static final int app_name=0x7f060000;
-        public static final int books=0x7f06000a;
-        public static final int brithday_title=0x7f06001f;
+        public static final int books=0x7f06000b;
+        public static final int booktypeurl=0x7f060008;
+        public static final int brithday_title=0x7f060020;
         public static final int btone=0x7f060002;
         /**  menu begin 
          */
-        public static final int buddha=0x7f060008;
-        public static final int changebt=0x7f060024;
-        public static final int changps_title=0x7f060020;
-        public static final int error_newpsnull=0x7f06002c;
+        public static final int buddha=0x7f060009;
+        public static final int changebt=0x7f060025;
+        public static final int changps_title=0x7f060021;
+        public static final int error_newpsnull=0x7f06002d;
         /**  profile error 
          */
-        public static final int error_nickname=0x7f060029;
-        public static final int error_oldpsfailed=0x7f06002b;
-        public static final int error_oldpsnull=0x7f06002a;
-        public static final int error_renewps=0x7f06002d;
-        public static final int keeplog=0x7f060014;
-        public static final int logerror=0x7f060019;
+        public static final int error_nickname=0x7f06002a;
+        public static final int error_oldpsfailed=0x7f06002c;
+        public static final int error_oldpsnull=0x7f06002b;
+        public static final int error_renewps=0x7f06002e;
+        public static final int keeplog=0x7f060015;
+        public static final int logerror=0x7f06001a;
         /**  <string name=""></string> 
  menu end 
  Login 
          */
-        public static final int login_title=0x7f060011;
-        public static final int loginbt=0x7f060015;
+        public static final int login_title=0x7f060012;
+        public static final int loginbt=0x7f060016;
         public static final int loginurl=0x7f060007;
-        public static final int logout=0x7f06000e;
-        public static final int master=0x7f06000c;
-        public static final int menuLogin=0x7f060010;
-        public static final int music=0x7f060009;
-        public static final int namenull=0x7f060017;
-        public static final int newps_title=0x7f060022;
-        public static final int nickname_title=0x7f06001b;
-        public static final int oldps_title=0x7f060021;
-        public static final int password=0x7f060013;
-        public static final int passwordnull=0x7f060018;
+        public static final int logout=0x7f06000f;
+        public static final int master=0x7f06000d;
+        public static final int menuLogin=0x7f060011;
+        public static final int music=0x7f06000a;
+        public static final int namenull=0x7f060018;
+        public static final int newps_title=0x7f060023;
+        public static final int nickname_title=0x7f06001c;
+        public static final int oldps_title=0x7f060022;
+        public static final int password=0x7f060014;
+        public static final int passwordnull=0x7f060019;
         /**  profile 
          */
-        public static final int profile_title=0x7f06001a;
-        public static final int quit=0x7f06000f;
-        public static final int registerbt=0x7f060016;
-        public static final int renewps_title=0x7f060023;
-        public static final int rtbuddha=0x7f060025;
+        public static final int profile_title=0x7f06001b;
+        public static final int quit=0x7f060010;
+        public static final int registerbt=0x7f060017;
+        public static final int renewps_title=0x7f060024;
+        public static final int rtbuddha=0x7f060026;
         /**  layout buddha end 
          */
         public static final int serverurl=0x7f060006;
-        public static final int setting=0x7f06000d;
-        public static final int sex_female=0x7f06001e;
-        public static final int sex_male=0x7f06001d;
-        public static final int sex_title=0x7f06001c;
-        public static final int story=0x7f06000b;
+        public static final int setting=0x7f06000e;
+        public static final int sex_female=0x7f06001f;
+        public static final int sex_male=0x7f06001e;
+        public static final int sex_title=0x7f06001d;
+        public static final int story=0x7f06000c;
         /**  subject 
          */
         public static final int subject=0x7f060005;
-        public static final int tab_friends=0x7f060028;
-        public static final int tab_lession=0x7f060027;
-        public static final int tab_userinfo=0x7f060026;
-        public static final int username=0x7f060012;
+        public static final int tab_friends=0x7f060029;
+        public static final int tab_lession=0x7f060028;
+        public static final int tab_userinfo=0x7f060027;
+        public static final int username=0x7f060013;
     }
     public static final class style {
         /** 
