@@ -107,7 +107,7 @@ public class Buddha extends Activity {
 		uc_username = Rt_username();
 		uc_password = Rt_password();
 		uc_flag = Rt_flag();
-		System.out.println("user current=>"+uc_username+":"+uc_password+":"+uc_flag);
+		//System.out.println("user current=>"+uc_username+":"+uc_password+":"+uc_flag);
 		
 		//set new image
 		if(DwClient.flag||uc_flag){
@@ -115,10 +115,10 @@ public class Buddha extends Activity {
 			
 			Bitmap bitmap = loadImages.loadimgs("http://stagingworkspace.com/darrenpage/data/fo.jpg");
 			BitmapCreateNew bitmapCreateNew = new BitmapCreateNew(bitmap);
-			System.out.println("bitmap=>"+bitmap);
+			//System.out.println("bitmap=>"+bitmap);
 			logining.setImageBitmap(bitmapCreateNew.newimage(80, 80));
 		}
-		System.out.println("typeof buddha==>"+Buddha.this.getClass().toString());
+		//System.out.println("typeof buddha==>"+Buddha.this.getClass().toString());
 		logining.setOnClickListener(new View.OnClickListener() {
 			
 			
@@ -131,7 +131,7 @@ public class Buddha extends Activity {
 					Buddha.this.finish();
 				}else{
 					IconFlag = false;
-					System.out.println("Buddha flag=>"+DwClient.flag);
+					//System.out.println("Buddha flag=>"+DwClient.flag);
 					//go to the profile page set
 					Intent proIntent = new Intent(Buddha.this,Profile.class);
 					startActivity(proIntent);
@@ -178,7 +178,7 @@ public class Buddha extends Activity {
 					    for(int i = 0; i < contacts.length(); i++){
 					        JSONObject c = contacts.getJSONObject(i);
 					        String msg = c.getString("msg");
-					        System.out.println("msg=>"+msg);
+					        //System.out.println("msg=>"+msg);
 					        edw_content.setText(msg);
 					    }
 					} catch (JSONException e) {
