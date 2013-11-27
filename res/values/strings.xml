@@ -14,6 +14,7 @@
     <string name="serverurl">http://www.rlsy.net/app/version</string>
     <string name="loginurl">http://www.rlsy.net/app/login</string>
 	<string name="booktypeurl">http://www.rlsy.net/app/bookType</string>
+	<string name="booklisturl">http://www.rlsy.net/app/booklist</string>
     <!-- menu begin -->
     <string name="buddha">诸佛菩萨</string>
     <string name="music">佛教音乐</string>
