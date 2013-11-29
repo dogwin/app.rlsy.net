@@ -77,7 +77,7 @@ public class Buddha extends Activity {
 		IntentFilter mFilter = new IntentFilter();  
         mFilter.addAction(ConnectivityManager.CONNECTIVITY_ACTION);  
         registerReceiver(mReceiver, mFilter); 
-        
+        /*
         //logout 
         Intent mintent = getIntent();
         logout = mintent.getBooleanExtra("logout", false);
@@ -86,18 +86,6 @@ public class Buddha extends Activity {
         	DwClient.flag = false;
         }
 		
-        /*
-        btone = (Button)this.findViewById(R.id.btone);
-        
-        btone.setOnClickListener(new View.OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				Vibrator vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-				vibrator.vibrate(1000);
-			}
-		});*/
 		edy_url = getResources().getString(R.string.EDW_Url);
 		edw_content = (TextView)this.findViewById(R.id.edw_content);
 		
@@ -138,7 +126,7 @@ public class Buddha extends Activity {
 					Buddha.this.finish();
 				}
 			}
-		});
+		});*/
 	}
 	protected void login(){
 		Intent logIntent = new Intent(Buddha.this, Login.class);

@@ -45,6 +45,8 @@
             android:label="@string/music"></activity>
         <activity android:name="dogwin.net.books.BooksApp"
             android:label="@string/books"></activity>
+        <activity android:name="dogwin.net.books.ReadBook"
+            android:label="@string/ReadBook"></activity>
         <activity android:name="dogwin.net.story.StoryApp"
             android:label="@string/story"></activity>
         <activity android:name="dogwin.net.master.MasterApp"
