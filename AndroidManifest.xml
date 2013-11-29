@@ -35,7 +35,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="dogwin.net.apps.Buddha"></activity>
+        <activity android:name="dogwin.net.apps.App"></activity>
         <activity android:name="dogwin.net.backRun.IconShow"></activity>
         <!-- buddha -->
         <activity 
@@ -45,7 +45,8 @@
             android:label="@string/music"></activity>
         <activity android:name="dogwin.net.books.BooksApp"
             android:label="@string/books"></activity>
-        
+        <activity android:name="dogwin.net.books.ReadBook"
+            android:label="@string/ReadBook"></activity>
         <activity android:name="dogwin.net.story.StoryApp"
             android:label="@string/story"></activity>
         <activity android:name="dogwin.net.master.MasterApp"

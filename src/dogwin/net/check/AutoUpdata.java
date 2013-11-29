@@ -1,22 +1,20 @@
 package dogwin.net.check;
 
 
-import android.app.Activity;
 import java.io.File;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.app.ProgressDialog;
-
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
-
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
@@ -28,11 +26,8 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
-import dogwin.net.apps.Buddha;
+import dogwin.net.apps.App;
 import dogwin.net.apps.R;
-import dogwin.net.check.DownLoadManager;
-import dogwin.net.check.UpdataInfo;
-import dogwin.net.check.UpdataInfoParser;
 import dogwin.net.publics.Menus;
 
 public class AutoUpdata extends Activity{
@@ -259,7 +254,7 @@ public class AutoUpdata extends Activity{
 	 * 进入程序的主界面 
 	 */  
 	private void LoginMain(){  
-	    Intent intent = new Intent(AutoUpdata.this,Buddha.class);  
+	    Intent intent = new Intent(AutoUpdata.this,App.class);  
 	    startActivity(intent);  
 	    //结束掉当前的activity   
 	    this.finish();  

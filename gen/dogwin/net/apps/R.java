@@ -100,68 +100,72 @@ public final class R {
     public static final class string {
         public static final int EDW_Url=0x7f050004;
         public static final int EveryDayWords=0x7f050003;
+        /**  Read Book 
+         */
+        public static final int ReadBook=0x7f050031;
         public static final int action_settings=0x7f050001;
         /**  layout buddha 
          */
         public static final int app_name=0x7f050000;
         public static final int booklisturl=0x7f050009;
-        public static final int books=0x7f05000c;
+        public static final int books=0x7f05000d;
         public static final int booktypeurl=0x7f050008;
-        public static final int brithday_title=0x7f050021;
+        public static final int brithday_title=0x7f050022;
         public static final int btone=0x7f050002;
         /**  menu begin 
          */
-        public static final int buddha=0x7f05000a;
-        public static final int changebt=0x7f050026;
-        public static final int changps_title=0x7f050022;
-        public static final int error_newpsnull=0x7f05002e;
+        public static final int buddha=0x7f05000b;
+        public static final int changebt=0x7f050027;
+        public static final int changps_title=0x7f050023;
+        public static final int error_newpsnull=0x7f05002f;
         /**  profile error 
          */
-        public static final int error_nickname=0x7f05002b;
-        public static final int error_oldpsfailed=0x7f05002d;
-        public static final int error_oldpsnull=0x7f05002c;
-        public static final int error_renewps=0x7f05002f;
-        public static final int keeplog=0x7f050016;
-        public static final int logerror=0x7f05001b;
+        public static final int error_nickname=0x7f05002c;
+        public static final int error_oldpsfailed=0x7f05002e;
+        public static final int error_oldpsnull=0x7f05002d;
+        public static final int error_renewps=0x7f050030;
+        public static final int keeplog=0x7f050017;
+        public static final int logerror=0x7f05001c;
         /**  <string name=""></string> 
  menu end 
  Login 
          */
-        public static final int login_title=0x7f050013;
-        public static final int loginbt=0x7f050017;
+        public static final int login_title=0x7f050014;
+        public static final int loginbt=0x7f050018;
         public static final int loginurl=0x7f050007;
-        public static final int logout=0x7f050010;
-        public static final int master=0x7f05000e;
-        public static final int menuLogin=0x7f050012;
-        public static final int music=0x7f05000b;
-        public static final int namenull=0x7f050019;
-        public static final int newps_title=0x7f050024;
-        public static final int nickname_title=0x7f05001d;
-        public static final int oldps_title=0x7f050023;
-        public static final int password=0x7f050015;
-        public static final int passwordnull=0x7f05001a;
+        public static final int logout=0x7f050011;
+        public static final int master=0x7f05000f;
+        public static final int menuLogin=0x7f050013;
+        public static final int music=0x7f05000c;
+        public static final int namenull=0x7f05001a;
+        public static final int newps_title=0x7f050025;
+        public static final int nickname_title=0x7f05001e;
+        public static final int oldps_title=0x7f050024;
+        public static final int password=0x7f050016;
+        public static final int passwordnull=0x7f05001b;
         /**  profile 
          */
-        public static final int profile_title=0x7f05001c;
-        public static final int quit=0x7f050011;
-        public static final int registerbt=0x7f050018;
-        public static final int renewps_title=0x7f050025;
-        public static final int rtbuddha=0x7f050027;
+        public static final int profile_title=0x7f05001d;
+        public static final int quit=0x7f050012;
+        public static final int readbookurl=0x7f05000a;
+        public static final int registerbt=0x7f050019;
+        public static final int renewps_title=0x7f050026;
+        public static final int rtbuddha=0x7f050028;
         /**  layout buddha end 
          */
         public static final int serverurl=0x7f050006;
-        public static final int setting=0x7f05000f;
-        public static final int sex_female=0x7f050020;
-        public static final int sex_male=0x7f05001f;
-        public static final int sex_title=0x7f05001e;
-        public static final int story=0x7f05000d;
+        public static final int setting=0x7f050010;
+        public static final int sex_female=0x7f050021;
+        public static final int sex_male=0x7f050020;
+        public static final int sex_title=0x7f05001f;
+        public static final int story=0x7f05000e;
         /**  subject 
          */
         public static final int subject=0x7f050005;
-        public static final int tab_friends=0x7f05002a;
-        public static final int tab_lession=0x7f050029;
-        public static final int tab_userinfo=0x7f050028;
-        public static final int username=0x7f050014;
+        public static final int tab_friends=0x7f05002b;
+        public static final int tab_lession=0x7f05002a;
+        public static final int tab_userinfo=0x7f050029;
+        public static final int username=0x7f050015;
     }
     public static final class style {
         /** 
