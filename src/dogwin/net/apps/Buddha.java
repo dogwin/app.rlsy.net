@@ -77,7 +77,7 @@ public class Buddha extends Activity {
 		IntentFilter mFilter = new IntentFilter();  
         mFilter.addAction(ConnectivityManager.CONNECTIVITY_ACTION);  
         registerReceiver(mReceiver, mFilter); 
-        /*
+        
         //logout 
         Intent mintent = getIntent();
         logout = mintent.getBooleanExtra("logout", false);
@@ -126,7 +126,7 @@ public class Buddha extends Activity {
 					Buddha.this.finish();
 				}
 			}
-		});*/
+		});
 	}
 	protected void login(){
 		Intent logIntent = new Intent(Buddha.this, Login.class);

@@ -15,7 +15,7 @@
     <string name="loginurl">http://www.rlsy.net/app/login</string>
 	<string name="booktypeurl">http://www.rlsy.net/app/bookType</string>
 	<string name="booklisturl">http://www.rlsy.net/app/booklist</string>
-	<string name="readbookurl">http://www.rlsy.net/app/readbook</string>
+	
     <!-- menu begin -->
     <string name="buddha">诸佛菩萨</string>
     <string name="music">佛教音乐</string>
@@ -63,6 +63,5 @@
     <string name="error_oldpsfailed">愿密码错误</string>
     <string name="error_newpsnull">请输入新密码</string>
     <string name="error_renewps">两次密码不一致</string>
-    <!-- Read Book -->
-    <string name="ReadBook">经典阅读</string>
+   
 </resources>
