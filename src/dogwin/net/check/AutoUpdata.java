@@ -28,6 +28,7 @@ import android.view.MenuItem;
 import android.widget.Toast;
 import dogwin.net.apps.App;
 import dogwin.net.apps.R;
+import dogwin.net.books.BooksApp;
 import dogwin.net.publics.Menus;
 
 public class AutoUpdata extends Activity{
@@ -254,7 +255,7 @@ public class AutoUpdata extends Activity{
 	 * 进入程序的主界面 
 	 */  
 	private void LoginMain(){  
-	    Intent intent = new Intent(AutoUpdata.this,App.class);  
+	    Intent intent = new Intent(AutoUpdata.this,BooksApp.class);  
 	    startActivity(intent);  
 	    //结束掉当前的activity   
 	    this.finish();  
